@@ -1,0 +1,18 @@
+---
+import App from '../components/App';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pokemon List</title>
+    <meta name="description" content="A list of Pokemons with search functionality." />
+    <meta name="keywords" content="Pokemon, Pokedex, Search" />
+  </head>
+  <body>
+    <!-- Use the App component and hydrate it on client load -->
+    <div id="app">
+      <App client:load />
+    </div>
+  </body>
+</html>
